@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C756A5925432BE200BC742C /* MusicAndComicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C756A5825432BE200BC742C /* MusicAndComicViewController.swift */; };
+		7C756A5D25432F5700BC742C /* 最長的旅途.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C756A5C25432F5700BC742C /* 最長的旅途.mp3 */; };
+		7C756A602543365500BC742C /* MyMagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C756A5F2543365500BC742C /* MyMagicParticle.sks */; };
 		7C9268622541E01D0062D1AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9268612541E01D0062D1AE /* AppDelegate.swift */; };
 		7C9268642541E01D0062D1AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9268632541E01D0062D1AE /* SceneDelegate.swift */; };
-		7C9268662541E01D0062D1AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9268652541E01D0062D1AE /* ViewController.swift */; };
 		7C9268692541E01D0062D1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9268672541E01D0062D1AE /* Main.storyboard */; };
 		7C92686B2541E01E0062D1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C92686A2541E01E0062D1AE /* Assets.xcassets */; };
 		7C92686E2541E01E0062D1AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C92686C2541E01E0062D1AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C756A5825432BE200BC742C /* MusicAndComicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAndComicViewController.swift; sourceTree = "<group>"; };
+		7C756A5C25432F5700BC742C /* 最長的旅途.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "最長的旅途.mp3"; sourceTree = "<group>"; };
+		7C756A5F2543365500BC742C /* MyMagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyMagicParticle.sks; sourceTree = "<group>"; };
 		7C92685E2541E01D0062D1AE /* comicbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comicbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9268612541E01D0062D1AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C9268632541E01D0062D1AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C9268652541E01D0062D1AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C9268682541E01D0062D1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C92686A2541E01E0062D1AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C92686D2541E01E0062D1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,13 +60,15 @@
 		7C9268602541E01D0062D1AE /* comicbook */ = {
 			isa = PBXGroup;
 			children = (
+				7C756A5C25432F5700BC742C /* 最長的旅途.mp3 */,
 				7C9268612541E01D0062D1AE /* AppDelegate.swift */,
 				7C9268632541E01D0062D1AE /* SceneDelegate.swift */,
-				7C9268652541E01D0062D1AE /* ViewController.swift */,
+				7C756A5825432BE200BC742C /* MusicAndComicViewController.swift */,
 				7C9268672541E01D0062D1AE /* Main.storyboard */,
 				7C92686A2541E01E0062D1AE /* Assets.xcassets */,
 				7C92686C2541E01E0062D1AE /* LaunchScreen.storyboard */,
 				7C92686F2541E01E0062D1AE /* Info.plist */,
+				7C756A5F2543365500BC742C /* MyMagicParticle.sks */,
 			);
 			path = comicbook;
 			sourceTree = "<group>";
@@ -127,6 +133,8 @@
 				7C92686E2541E01E0062D1AE /* LaunchScreen.storyboard in Resources */,
 				7C92686B2541E01E0062D1AE /* Assets.xcassets in Resources */,
 				7C9268692541E01D0062D1AE /* Main.storyboard in Resources */,
+				7C756A5D25432F5700BC742C /* 最長的旅途.mp3 in Resources */,
+				7C756A602543365500BC742C /* MyMagicParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C9268662541E01D0062D1AE /* ViewController.swift in Sources */,
 				7C9268622541E01D0062D1AE /* AppDelegate.swift in Sources */,
+				7C756A5925432BE200BC742C /* MusicAndComicViewController.swift in Sources */,
 				7C9268642541E01D0062D1AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
